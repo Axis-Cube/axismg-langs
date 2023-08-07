@@ -27,7 +27,7 @@ axiscube.form.setting=Settings
 axiscube.profile=Profile
 axiscube.profile.customize=Customization
 axiscube.profile.region=Region
-axiscube.profile.region.store=In order to continue, you must specify the region. The availability of some items may depend on the region
+axiscube.profile.region.store=In order to continue, you must specify your current region. The availability of some store items may depend on your region.
 axiscube.profile.region.my=Your region
 axiscube.profile.region.edit=Switch my region
 axiscube.profile.region.edit.d=Enter the two-digit code of your country. For example:
@@ -41,7 +41,7 @@ axiscube.profile.region.edit.placeholder=US
 axiscube.profile.region.edit.confirm=Do you really want to change the region to:
 
 ## Bank
-axiscube.bank.balance.my=Your balance
+axiscube.bank.balance.my=Your Current Balance
 axiscube.bank.balance=Balance
 
 ## Store
@@ -88,7 +88,7 @@ axiscube.store.action.random=Randomize
 axiscube.store.category.choice=Select a item category
 axiscube.store.setpack.s=Setpacks
 axiscube.store.setpack.d=List of setpacks
-axiscube.store.colorname.s=Name color
+axiscube.store.colorname.s=Name colors
 axiscube.store.colorname.d=List of name colors
 axiscube.store.killmsg.s=Kill messages
 axiscube.store.killmsg.d=List of kill messages
@@ -107,7 +107,7 @@ axiscube.error.javascript_error=§cAn error occurred in the Script Engine.%1%2%1
 axiscube.error.pvp_json_reader_error=§cScript Engine could not apply this set. Error type: §4%1§c. The set could not be used due to an unknown armor material, a non-numeric type of the number of items, or due to an error in the JSON itself. §4We strongly do not recommend using this kit!
 ## Kill messages
 axiscube.kill.t0=Player §c%1§r was slain by §a%2§r
-axiscube.kill.t0.bow=Player §c%1§r was shoot by §a%2§r
+axiscube.kill.t0.bow=Player §c%1§r was shot by §a%2§r
 axiscube.kill.t1=Player §a%2§r cut the file §c%1§r
 axiscube.kill.t1.bow=Player §a%2§r cut the file §c%1§r (Remote Access)
 axiscube.kill.t2=§a%2§r  §c%1§r
@@ -156,8 +156,8 @@ axiscube.games.startgame.confirm.d=Confirm the start of the game?
 axiscube.games.startgame.confirm.d_line2.hns=If the player did not have time to choose a block, he will play for a random one!
 axiscube.games.startgame.confirm.d_line2.team=If a player does not have time to choose a team, he will become an spectator!
 axiscube.games.startgame.confirm.error=You won't be able to start the game:
-axiscube.games.startgame.confirm.error.team=Not enough teams. To start the game, 2 teams with players are neededqs
-axiscube.games.cancelgame.confirm.d=Confirm cancellation of the game
+axiscube.games.startgame.confirm.error.team=Not enough teams. To start the game, 2 teams with players are needed!
+axiscube.games.cancelgame.confirm.d=Confirm cancellation of the game.
 
 ## Team games
 axiscube.teamgame.choice_team=Team selection
@@ -214,11 +214,11 @@ axiscube.hns.placed.error=You can't stand here!
 axiscube.hns.seekers=Seekers
 axiscube.hns.hiders=Hiders
 axiscube.hns.block_list=Blocks to find:
-axiscube.hns.block_sel.d=Select the block you would like to hide behind.
+axiscube.hns.block_sel.d=Select the block you would like to hide as for this game.
 axiscube.hns.block_sel=Block Selection
-axiscube.hns.block_sel.hidden=%s is hiding now
-axiscube.hns.block_sel.visible=%s is visible now
-axiscube.hns.block_list.d=Here, the blocks. which you will need to find:
+axiscube.hns.block_sel.hidden=%s is currently hiding
+axiscube.hns.block_sel.visible=%s is currently visible
+axiscube.hns.block_list.d=Here are the blocks which you will need to find:
 axiscube.hns.block_lsit=List of blocks
 axiscube.hns.seeker_became=Player §c%s§r became a seeker
 axiscube.hns.seeker_sleep=The hiders have §6%s§r seconds to hide
@@ -226,11 +226,11 @@ axiscube.hns.seeker_is_free=Seeker §c%s§r went hunting!
 axiscube.hns.death=Player §b%1§r was caught by §c%2§r! He played as a §a%3§r.
 axiscube.hns.main_seeker=Main Seeker
 axiscube.hns.last_hider=Last hider
-axiscube.hns.target=Blocks for which the hider can play:
+axiscube.hns.target=Blocks for which the hiders can play as:
 
 ## BlockParty
 axiscube.blockp.name=BlockParty
-axiscube.blockp.d=Stand on the right color.
+axiscube.blockp.d=Stand on the correct color.
 axiscube.blockp.target_color=Target color:
 axiscube.blockp.bonus.rescue_plate=You can't place a rescue platform at the moment
 
