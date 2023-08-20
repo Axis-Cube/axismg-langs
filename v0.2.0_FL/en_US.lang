@@ -1,0 +1,361 @@
+## Items
+item.axiscube:menu=Menu
+item.axiscube:hns_blockchooser=Block chooser
+item.axiscube:hns_blockslist=List of target blocks
+item.axiscube:begin_game=Start the game
+item.axiscube:cancel_game=Cancel the game
+item.axiscube:setting_game=Setting the game
+item.axiscube:blockp_totem=Safety cushion
+item.axiscube:pvp_settingkit=Setting sets
+item.axiscube:team_selection=Team selection
+item.axiscube:hns_taunt=Taunts menu
+
+## Forms
+axiscube.form.mainmenu=Main menu
+axiscube.form.mainmenu.d=Welcome to the §l§cA§qxi§9s §4M§ci§6n§gi §eG§aa§bm§9e§us §rmap
+
+axiscube.form.games=Games
+axiscube.form.games.d=Choose the type of games
+axiscube.form.games.p1=Games for 1 player or more
+axiscube.form.games.p2=Games for 2 players or more
+axiscube.form.games.diff=Choose the difficulty of the game
+axiscube.form.games.gametype=Choose the type of game
+axiscube.form.games.gametype.teamgame=Team play
+axiscube.form.games.gametype.ffa=Free for all
+
+axiscube.form.games.arena=Select the arena in which the game will take place
+axiscube.form.games.classic=Classic
+axiscube.form.games.wildwest=Wild West
+axiscube.form.games.icy=Icy
+
+
+axiscube.form.p2.no_players_warn=It seems you're lonely! There are not enough players on the map to play these games. You can only view the description of these games!
+axiscube.form.info=Info
+
+## Profile
+axiscube.profile=Profile
+axiscube.profile.customize=Customization
+axiscube.profile.region=Region
+axiscube.profile.region.store=In order to continue, you must specify your current region. The availability of some items may depend on the region
+axiscube.profile.region.my=Your region
+axiscube.profile.region.edit=Switch my region
+axiscube.profile.region.edit.d=Enter the two-digit code of your country. For example:
+axiscube.profile.region.edit.d.example.us=The United States of America
+axiscube.profile.region.edit.d.example.ru=The Russian Federation
+axiscube.profile.region.edit.d.example.ee=Estonia
+axiscube.profile.region.edit.d.header=The availability of items in the store, localization and other parameters may depend on your region.
+axiscube.profile.region.edit.d.error=You entered an incorrect country code
+## Paste there region of language: "en_US -> US", "ru_RU -> RU", "fr_CA -> CA"
+axiscube.profile.region.edit.placeholder=US
+axiscube.profile.region.edit.confirm=Do you really want to change the region to:
+
+## Bank
+axiscube.bank.balance.my=Your Current Balance
+axiscube.bank.balance=Balance
+
+## Store
+axiscube.store=Axis-Store
+
+axiscube.store.transfer=Transfer of purchases
+axiscube.store.transfer.d=You can transfer progress between different Axis Mini Games maps.
+axiscube.store.transfer.export=Get the transfer code
+axiscube.store.transfer.export.d=Select the item you would like to transfer
+axiscube.store.transfer.import=Enter the transfer code
+axiscube.store.transfer.export.code=This is the item code to transfer to another map. It will only work with the name "%1". You will not be able to transfer an item to an outdated version of the map if this item cannot be purchased.
+axiscube.store.transfer.import.d=Enter the transfer code:
+axiscube.store.transfer.import.confirm=Do you really want to receive this product?
+axiscube.store.transfer.import.confirm.b=Confirm receiving
+axiscube.store.transfer.import.confirm.suc=The item has been successfully activated
+axiscube.store.transfer.import.error=§cThe transfer code that you entered did not fit. Make sure that this code was really intended for your name.
+axiscube.store.transfer.import.error.version=§cSorry, it seems this item is intended for a newer version of the map.
+
+axiscube.store.price.set=Purchase in a set
+axiscube.store.price.unvaliable=Unvaliable
+
+axiscube.store.product_info=Item Information
+axiscube.store.product_info.author=Product author: %s
+axiscube.store.product_info.setpack=There are %s items in this bundle
+axiscube.store.product_info.setpack.button=>> Bundle Contents: <<
+axiscube.store.product_info.price=Product price: %s
+axiscube.store.product_info.price.setpack_only=This product can only be purchased in the "%s"
+axiscube.store.product_info.price.setpack_also=This product is also included in the "%s"
+axiscube.store.product_info.price.setpack_also_not1=This product is also included in this packs:
+axiscube.store.product_info.colorname=Your name in the lobby and some games will be like this: §r%s
+axiscube.store.product_info.emoji=By purchasing this item you will receive an %s emoji
+
+axiscube.store.purchased.callback_notify=Successful purchase!
+axiscube.store.purchased.bomj=Not enough AxiGems to buy this item
+axiscube.store.purchased.unv=This item is not available for purchase
+axiscube.store.purchased.title=Purchased items
+axiscube.store.purchased.d=At your disposal %s items
+axiscube.store.purchased.no_items=You don't have any purchased items. As a warming item, there is a nerd here
+
+axiscube.store.action.backlink=Back to the Axis-Store
+axiscube.store.action.view_in_store=View offers in the Axis-Store
+axiscube.store.action.random=Randomize
+axiscube.store.action.view=Go to the customization menu
+
+axiscube.store.category.choice=Select a item category
+axiscube.store.setpack.s=Bundles
+axiscube.store.setpack.d=List of bundles
+axiscube.store.colorname.s=Name color
+axiscube.store.colorname.d=List of name colors
+axiscube.store.killmsg.s=Kill messages
+axiscube.store.killmsg.d=List of kill messages
+axiscube.store.emoji.s=Emojis
+axiscube.store.emoji.d=List of emojis
+axiscube.store.soundmsg.s=Message sounds
+axiscube.store.soundmsg.d=List of message sounds
+axiscube.store.soundmsg.b=Message sound:
+
+axiscube.store.product.devpack=Developer bundle
+axiscube.store.product.pinkpack=Pink bundle
+axiscube.store.product.memepack=Memez set
+
+## Messages
+
+## Perms
+axiscube.perm.true_leader_comeback=The map manager has arrived. Temporary manager §a%s§r was stripped of his power.
+axiscube.perm.new_temp=There are no map managers on the map. §a%s§r was appointed as a temporary manager. He will manage the map until the main manager appears, or another manager appointed by the leader.
+axiscube.perm.denied.generic=You don't have the permissions to do it.
+axiscube.perm.denied.setting=You don't have permission to configure the map.
+axiscube.perm.denied.start=You don't have the permissions to start the game.
+axiscube.perm.denied.stop=You don't have the permissions to stop or cancel the game.
+axiscube.perm.denied=Not enough perms
+axiscube.perm.denied.op.main=Only the main manager of the map can appoint and dismiss managers. But you can replace the main manager if you are the operator of the world
+
+axiscube.perm.op.granted.temp=§eYou have been appointed as a temporary map manager.
+axiscube.perm.op.granted.generic=§eYou have been appointed as a map manager.
+axiscube.perm.op.granted.by_leader=§eYou have been appointed as the map manager by player %1.
+axiscube.perm.op.granted.by_leader.public=§a%1§r have been appointed as the map manager by player §6%2§r.
+axiscube.perm.op.granted.auto=§eYou were automatically assigned as a map manager, since you are the operator of the world.
+
+axiscube.perm.op.revoked.by_leader.public=§a%1§r have been deprived as the map manager by player §6%2§r.
+axiscube.perm.op.revoked.generic=§eYou have been deprived of the status of a map operator.
+## Errors
+axiscube.error.generic=§cAn error has occurred! Error code: "§4%1§c". More detailed: %2
+axiscube.error.item_error=§cThe "§4%1§c" item is not intended for this game!
+axiscube.error.unknown_error=§cUnknown error!
+axiscube.error.scriptevent_error=§cUnknown name of the script event trigger: §4%s§c.
+axiscube.error.javascript_error=§cAn error occurred in the Script Engine.%1%2%1%3
+axiscube.error.pvp_json_reader_error=§cScript Engine could not apply this set. Error type: §4%1§c. The set could not be used due to an unknown armor material, a non-numeric type of the number of items, or due to an error in the JSON itself. §4We strongly do not recommend using this kit!
+## Kill messages
+axiscube.kill.t0=Player §c%1§r was slain by §a%2§r
+axiscube.kill.t0.bow=Player §c%1§r was shot by §a%2§r
+axiscube.kill.t1=Player §a%2§r cut the file §c%1§r
+axiscube.kill.t1.bow=Player §a%2§r cut the file §c%1§r (Remote Access)
+axiscube.kill.t2=§a%2§r  §c%1§r
+axiscube.kill.t2.bow=§a%2§r  §c%1§r
+axiscube.kill.t3=Player §c%1§r turned §dpink§r from §a%2§r. It seems to be deadly...
+axiscube.kill.t3.bow=Player §c%1§r turned §dpink§r by from §a%2's§r arrow. It seems to be deadly...
+axiscube.kill.t4=Player §c%1§r was bonked by §a%2§r
+axiscube.kill.t4.bow=Player §c%1§r was shot-bonked by §a%2§r
+axiscube.kill.t5=Player §c%1§r lost the duel to §a%2§r
+axiscube.kill.t5.bow=Player §c%1§r lost a duel on bows to player §a%2§r
+
+
+axiscube.chat.emoji.buy=You need to buy this Emoji to use in chat
+
+## Nerdman
+axiscube.msg.nerd=Nerdman
+axiscube.msg.nerd.typing=Nerdman prints you a message...
+axiscube.msg.nerd.say.t0=<Nerdman> OMG (Oh my gosh), you found me, so I'm giving you an invitation letter to our Discord service. Discord service is somewhat similar to Whatsapp, but one Discord service can have many Whatsapp groups (discord channels).
+axiscube.msg.nerd.say.t1=<Nerdman> You can read on Wikipedia what Discord is: §bhttps://en.wikipedia.org/wiki/Discord§r.
+axiscube.msg.nerd.say.t2=<Nerdman> Btw (By the way), keep in mind that you need a DS account to log into our DS service. Discord account can be created from the age of 13.
+axiscube.msg.nerd.say.t3=<Nerdman> I guess you might not have understood me. When I said DS, I meant Discord.
+axiscube.msg.nerd.say.t4=<Nerdman> Keep in mind that there may be trolls in Discord, do not tell anyone in Discord where you live, do not tell your real name and do not send anything bad to Discord.
+axiscube.msg.nerd.say.t5=<Nerdman> Now I will give you the URL link to the invitation to the Discord service. Keep in mind that for this you need access to the Internet. Okay, I hope you've prepared a notebook and a pen. Now I will dictate to you the address on the Internet on Discord service...
+## Settings
+
+axiscube.settings.map=Map settings
+axiscube.settings.perms=Permission Management
+axiscube.settings.perms.howto=How to become the main manager of the map?
+axiscube.settings.perms.local=Perms for a specific player
+axiscube.settings.perms.global=General Perms Settings
+axiscube.settings.perms.global.everyone=Everyone
+axiscube.settings.perms.global.mapmanager=Only the map managers
+
+axiscube.settings.perms.role=Player Status:
+axiscube.settings.perms.role.op=Map Manager
+axiscube.settings.perms.role.op.main=Main Map Manager
+axiscube.settings.perms.role.op.temp=Temporary Map Manager
+axiscube.settings.perms.local.manager=§a%1§r is the manager of the map. He has all the permissions. For precise permission settings, you must deprive the player of the map manager status.
+axiscube.settings.perms.local.manager.temp=§a%1§r is the temporary manager of the map. He will be able to manage the map until the map manager appointed by the leader appears.
+axiscube.settings.perms.local.manager.main=§a%1§r is the main manager of the map. He can appoint other managers and manage the map without restrictions. He cannot be deprived of this status through the menu. This should be done by the operator of the world, through a special command.
+axiscube.settings.perms.local.not_manager=§a%1§r is not a map manager. It has only the permissions that you specified in the global settings or configured for it personally. If you want to give him all the perms and special powers, assign him a map manager.
+axiscube.settings.perms.local.grant=Assign as a map manager
+axiscube.settings.perms.local.revoke=Revoke as a map manager
+axiscube.settings.perms.local.revoke.opped_error=To deprive a player of the status of a map operator, you must first deprive the player of the status of a world operator. To do this, write: %s. After that, try again.
+axiscube.settings.perms.local.revoke.boss=How to reassign the main manager?
+axiscube.settings.perms.local.configure=Configure perms for this player
+axiscube.settings.perms.local.default=Default
+axiscube.settings.perms.local.true=Allowed
+axiscube.settings.perms.local.false=Not allowed
+
+axiscube.perm.main_op.d=The main map manager has more powers and capabilities. He can appoint and dismiss other map managers. In the absence of the general manager and other managers he has appointed. The map chooses a random player as a temporary manager, he will manage the map until an authorized manager appears. There can be only one general manager on the map.
+axiscube.perm.main_op.d.no_leader=We didn't find the main manager on the map. If he appears after you appoint yourself as the main manager of the map, he will lose his powers.
+axiscube.perm.main_op.d.has_leader=The current map manager is §6%s§r. If you reassign yourself as the main manager of the map, he will lose his power.
+axiscube.perm.main_op.d.final=In order to become the main manager of the map, write: "§e%1§r"
+axiscube.perm.main_op.msg.revoked=§eYou have been deprived of the status of the main manager of the map. The new main manager is %s.
+axiscube.perm.main_op.msg.granted=§eYou have been appointed the main manager of the map.
+
+axiscube.perm.lz.start=Perm to start the game
+axiscube.perm.lz.stop=Perm to stop the game
+axiscube.perm.lz.setting=Perm to setting map and games
+axiscube.perm.lz.pvp_create=Perms to create sets in PVP games
+axiscube.perm.lz.pvp_activate=Perms to activate sets in PVP games
+axiscube.perm.lz.pvp_edit=Perms to edit sets in PVP games
+axiscube.perm.lz.pvp_remove=Perms to remove sets in PVP games
+
+axiscube.settings.nametag=Hide player names
+axiscube.settings.game=Setting the game
+axiscube.settings.pvp.regen=Regeneration per kill
+axiscube.settings.falldamage=Fall damage
+
+## Games
+
+## Generic
+axiscube.games.startgame.already=§cThe game has already started!
+axiscube.games.startgame.no_players=§cThere are few players on the map! To run §4%1§c, you need §4%2§c players!
+axiscube.games.startgame=Player §6%1§r started the §a%2§r game
+axiscube.games.cancelgame=Player §6%1§r canceled the start of the game.
+axiscube.games.startgame.startmsg.t3=Ready
+axiscube.games.startgame.startmsg.t2=Set
+axiscube.games.startgame.startmsg.t1=Go!
+axiscube.games.startgame.startmsg.t1.blockp=Party!
+axiscube.games.startgame.startmsg.t1.pvp=Fight!
+axiscube.games.lucky_new_player=Since the game hasn't started yet, player §b%s§r will join in the fun!
+axiscube.games.new_player=The game has already started, the players are playing §a%s§r. Wait for the completion of this game and you can join the §cf§au§9n§3!
+axiscube.games.new_player.can_join=The game has already started, the players are playing §a%s§r. You have joined this game!
+axiscube.games.challenge=Challenge: §l§4%s§r
+axiscube.games.challenge.unical_trophy=Get a unique trophy
+axiscube.games.challenge.trophy=Get a trophy
+
+axiscube.games.role.spectator=§7Spectator
+axiscube.games.role.hider=§bHider
+axiscube.games.role.seeker=§cSeeker
+
+axiscube.games.startgame.confirm=Confirmation
+axiscube.games.startgame.confirm.d=Confirm the start of the game?
+axiscube.games.startgame.confirm.d_line2.hns=If the player did not have time to choose a block, he will play for a random one!
+axiscube.games.startgame.confirm.d_line2.team=If a player does not have time to choose a team, he will become an spectator!
+axiscube.games.startgame.confirm.error=You won't be able to start the game:
+axiscube.games.startgame.confirm.error.team=Not enough teams. To start the game, 2 teams with players are neededed!
+axiscube.games.cancelgame.confirm.d=Confirm cancellation of the game.
+
+axiscube.games.player_arrived=Player §a%s§r has passed the level
+axiscube.games.time=Time left: §q%2§r minutes, §a%1§r seconds
+axiscube.games.time.point.s=Less than a §a%s§r minute left! Hurry up!
+axiscube.games.time.point.se=Less than a §a%s§r minute left!
+axiscube.games.time.only_sec=Time left: §a%1§r seconds
+## Team games
+axiscube.teamgame.choice_team=Team selection
+axiscube.teamgame.choice_team.d=Choose a team. In order to start the game, you need at least 2 teams with players
+axiscube.teamgame.choice_team.spec=I want to be an spectator
+
+axiscube.teamgame.team.red=§cRed Team§r
+axiscube.teamgame.team.green=§2Green Team§r
+axiscube.teamgame.team.blue=§9Blue Team§r
+axiscube.teamgame.team.yellow=§eYellow Team§r
+axiscube.teamgame.team.purple=§uPurple Team§r
+axiscube.teamgame.team.orange=§6Orange Team§r
+axiscube.teamgame.team.pink=§dPink Team§r
+axiscube.teamgame.team.cyan=§3Cyan Team§r
+axiscube.teamgame.team.lime=§aLime Team§r
+axiscube.teamgame.team.black=§rBlack Team§r
+
+axiscube.teamgame.color.red.t1=§cTechy's Team
+axiscube.teamgame.color.green.t1=§qPepe team
+axiscube.teamgame.color.blue.t1=§9TypeScript team
+axiscube.teamgame.color.yellow.t1=§eJavaScript team
+axiscube.teamgame.color.purple.t1=§uCheharka's team
+axiscube.teamgame.color.orange.t1=§6Day team
+axiscube.teamgame.color.pink.t1=§dPinkish team
+axiscube.teamgame.color.cyan=§3MiauMiez's team
+axiscube.teamgame.color.lime=§aAxisander's team
+axiscube.teamgame.color.black=§7Night team
+
+## Game over
+axiscube.games.game_over=§lThe game is over:
+axiscube.games.game_over.duration=Duration of this round: §a%1§r minutes, §a%2§r seconds.
+axiscube.games.game_over.duration.zero_minutes=Duration of this round: §a%1§r seconds.
+axiscube.games.game_over.duration.one_minute=Duration of this round: §a1§r minute, §a%2§r seconds.
+
+axiscube.games.game_over.hns.no_hiders=There are no hiders left. The main seeker §c%1§r won! §u(%2)
+axiscube.games.game_over.hns.no_seekers=There are no seekers left. The hiders won: §a%1 §u(%2)
+axiscube.games.game_over.hns.no_time=Time's up! The hiders won: §a%1 §u(%2)
+
+axiscube.games.game_over.mnf.no_players=Winners: §a%1§r §u(%2)
+axiscube.games.game_over.mnf.no_time_winners=Time's up! Winners: §a%1 §u(%2)
+axiscube.games.game_over.mnf.no_time=Time's up! §cNo one had time to pass the level
+
+axiscube.games.game_over.generic.no_time=Time's up! The remaining players won: §a%1 §u(%2)
+axiscube.games.game_over.generic.no_players=There are no players left.
+axiscube.games.game_over.generic.one_player=The last player - §a%1§r is the winner! §u(%2)
+axiscube.games.game_over.generic.one_team=The last team - §a%1§r is the winner! §u(%2)
+
+## Scoreboard
+axiscube.scoreboard.players=Players:
+axiscube.scoreboard.money=Money Leaders:
+
+## Hide And Seek
+axiscube.hns.name=Hide and Seek
+axiscube.hns.d=You will hide behind the blocks. However, one of you will become a seeker, his task is to find all the player blocks.
+axiscube.hns.your_role=You will play for the block: §b%s§r
+axiscube.hns.hider_att=§c§lBe careful:§r Seekers see the items you are holding!
+axiscube.hns.moved=You have made a move!
+axiscube.hns.placed=Now you are a block!
+axiscube.hns.placed.error=You can't stand here!
+axiscube.hns.seekers=Seekers
+axiscube.hns.hiders=Hiders
+axiscube.hns.block_list=Blocks to find:
+axiscube.hns.block_sel.d=Select the block you would like to hide as for this game.
+axiscube.hns.block_sel=Block Selection
+axiscube.hns.block_sel.hidden=%s is currently hiding
+axiscube.hns.block_sel.visible=%s is urrently visible
+axiscube.hns.block_list.d=Here are the blocks. which you will need to find:
+axiscube.hns.block_lsit=List of blocks
+axiscube.hns.seeker_became=Player §c%s§r became a seeker
+axiscube.hns.seeker_sleep=The hiders have §6%s§r seconds to hide
+axiscube.hns.seeker_is_free=Seeker §c%s§r went hunting!
+axiscube.hns.death=Player §b%1§r was caught by §c%2§r! He played as a §a%3§r.
+axiscube.hns.main_seeker=Main Seeker
+axiscube.hns.last_hider=Last hider
+axiscube.hns.target=Blocks for which the hiders can play as:
+
+## BlockParty
+axiscube.blockp.name=BlockParty
+axiscube.blockp.d=Stand on the correct color.
+axiscube.blockp.target_color=Target color:
+axiscube.blockp.bonus.rescue_plate=You can't place a rescue platform at the moment
+
+## Minefield
+axiscube.mnf.name=Minefield
+axiscube.mnf.d=Reach the finish line without exploding!
+axiscube.mnf.field_engine.status=Placing mines: §a%1§r out of §c%2§r (§6%3%§r)
+
+## PVP
+axiscube.pvp.name=PVP Games
+axiscube.pvp.d=Fight against players in a team, alone, or in a duel!
+
+axiscube.pvp.kitset.activate=Activate the set
+axiscube.pvp.kitset.edit=Edit set equipment
+axiscube.pvp.kitset.edit.offhand=The item in the second hand
+axiscube.pvp.kitset.del.error=You cannot delete the last set
+axiscube.pvp.kitset.contain=Set Equipment:
+axiscube.pvp.kitset.management=Managing PVP sets
+axiscube.pvp.kitset.list=List of your sets:
+axiscube.pvp.kitset.templates=Templates
+axiscube.pvp.kitset.templates.list=Templates that you can use when creating a set:
+axiscube.pvp.kitset.this_manage=Managing this set
+axiscube.pvp.kitset.templates.author=Author
+axiscube.pvp.kitset.create_new=Create a new set
+axiscube.pvp.kitset.create_this=Use this template
+axiscube.pvp.kitset.create_new.d=Use a template, or create your own set from scratch
+axiscube.pvp.kitset.create_new.my_own=Create custom
+axiscube.pvp.kitset.export=Export a template
+axiscube.pvp.kitset.export.kitname=Kit Name (Max length: 30)
+axiscube.pvp.kitset.export.kitname.suc=Here is your set in JSON format. Copy it and share it with a friend. He can import this set on his map.
+axiscube.pvp.kitset.import=Import a JSON template
+axiscube.pvp.kitset.import.enter=Only a player with OP permissions can import a set. Write the following command to the chat:
+axiscube.pvp.kitset.import.warn=Templates from third-party users may not work correctly. The template may contain errors that may cause the map to break. Use templates from users you trust! We recommend that you refuse to create a set if you see that the texture or the name of the item is missing!
