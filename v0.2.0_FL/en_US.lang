@@ -1,29 +1,29 @@
 ## Items
 item.axiscube:menu=Menu
-item.axiscube:hns_blockchooser=Block chooser
-item.axiscube:hns_blockslist=List of target blocks
-item.axiscube:begin_game=Start the game
-item.axiscube:cancel_game=Cancel the game
-item.axiscube:setting_game=Setting the game
-item.axiscube:blockp_totem=Safety cushion
-item.axiscube:pvp_settingkit=Setting sets
-item.axiscube:team_selection=Team selection
-item.axiscube:hns_taunt=Taunts menu
+item.axiscube:hns_blockchooser=Block Selector
+item.axiscube:hns_blockslist=List Of Blocks
+item.axiscube:begin_game=Start The Game
+item.axiscube:cancel_game=Cancel The Game
+item.axiscube:setting_game=Game Settings
+item.axiscube:blockp_totem=Safety Cushion
+item.axiscube:pvp_settingkit=Kits Settings
+item.axiscube:team_selection=Team Selection 
+item.axiscube:hns_taunt=Taunts Selector 
 
 ## Forms
-axiscube.form.mainmenu=Main menu
+axiscube.form.mainmenu=Main Menu
 axiscube.form.mainmenu.d=Welcome to the §l§cA§qxi§9s §4M§ci§6n§gi §eG§aa§bm§9e§us §rmap
 
 axiscube.form.games=Games
-axiscube.form.games.d=Choose the type of games
-axiscube.form.games.p1=Games for 1 player or more
-axiscube.form.games.p2=Games for 2 players or more
-axiscube.form.games.diff=Choose the difficulty of the game
-axiscube.form.games.gametype=Choose the type of game
-axiscube.form.games.gametype.teamgame=Team play
-axiscube.form.games.gametype.ffa=Free for all
+axiscube.form.games.d=Choose The Type Of Game
+axiscube.form.games.p1=Games For 1 Player Or More
+axiscube.form.games.p2=Games For 2 Players Or More
+axiscube.form.games.diff=Select The Difficulty Of The Game
+axiscube.form.games.gametype=Choose The Type Of Game
+axiscube.form.games.gametype.teamgame=Teams
+axiscube.form.games.gametype.ffa=Free For All
 
-axiscube.form.games.arena=Select the arena in which the game will take place
+axiscube.form.games.arena=Select The Arena In Which The Fight Would Take Place
 axiscube.form.games.classic=Classic
 axiscube.form.games.wildwest=Wild West
 axiscube.form.games.icy=Icy
@@ -33,18 +33,18 @@ axiscube.form.p2.no_players_warn=It seems you're lonely! There are not enough pl
 axiscube.form.info=Info
 
 ## Profile
-axiscube.profile=Profile
+axiscube.profile=Your Profile
 axiscube.profile.customize=Customization
-axiscube.profile.region=Region
-axiscube.profile.region.store=In order to continue, you must specify your current region. The availability of some items may depend on the region
-axiscube.profile.region.my=Your region
-axiscube.profile.region.edit=Switch my region
+axiscube.profile.region=Regions
+axiscube.profile.region.store=In order to continue, you must specify your current region. The availability of some items may depend on the region you select.
+axiscube.profile.region.my=Your Region
+axiscube.profile.region.edit=Switch My Region
 axiscube.profile.region.edit.d=Enter the two-digit code of your country. For example:
 axiscube.profile.region.edit.d.example.us=The United States of America
 axiscube.profile.region.edit.d.example.ru=The Russian Federation
 axiscube.profile.region.edit.d.example.ee=Estonia
 axiscube.profile.region.edit.d.header=The availability of items in the store, localization and other parameters may depend on your region.
-axiscube.profile.region.edit.d.error=You entered an incorrect country code
+axiscube.profile.region.edit.d.error=You entered an incorrect country code.
 ## Paste there region of language: "en_US -> US", "ru_RU -> RU", "fr_CA -> CA"
 axiscube.profile.region.edit.placeholder=US
 axiscube.profile.region.edit.confirm=Do you really want to change the region to:
@@ -56,30 +56,30 @@ axiscube.bank.balance=Balance
 ## Store
 axiscube.store=Axis-Store
 
-axiscube.store.transfer=Transfer of purchases
+axiscube.store.transfer=Transfer my purchases
 axiscube.store.transfer.d=You can transfer progress between different Axis Mini Games maps.
 axiscube.store.transfer.export=Get the transfer code
 axiscube.store.transfer.export.d=Select the item you would like to transfer
 axiscube.store.transfer.import=Enter the transfer code
-axiscube.store.transfer.export.code=This is the item code to transfer to another map. It will only work with the name "%1". You will not be able to transfer an item to an outdated version of the map if this item cannot be purchased.
+axiscube.store.transfer.export.code=This is the item code to transfer your data to another map. It will only work with the name "%1". You will not be able to transfer an item to an outdated version of the map if this item cannot be purchased.
 axiscube.store.transfer.import.d=Enter the transfer code:
 axiscube.store.transfer.import.confirm=Do you really want to receive this product?
 axiscube.store.transfer.import.confirm.b=Confirm receiving
 axiscube.store.transfer.import.confirm.suc=The item has been successfully activated
-axiscube.store.transfer.import.error=§cThe transfer code that you entered did not fit. Make sure that this code was really intended for your name.
+axiscube.store.transfer.import.error=§cThe transfer code that you entered did not fit. Make sure that this code was really intended for you.
 axiscube.store.transfer.import.error.version=§cSorry, it seems this item is intended for a newer version of the map.
 
 axiscube.store.price.set=Purchase in a set
 axiscube.store.price.unvaliable=Unvaliable
 
 axiscube.store.product_info=Item Information
-axiscube.store.product_info.author=Product author: %s
+axiscube.store.product_info.author=Product Creator: %s
 axiscube.store.product_info.setpack=There are %s items in this bundle
 axiscube.store.product_info.setpack.button=>> Bundle Contents: <<
-axiscube.store.product_info.price=Product price: %s
+axiscube.store.product_info.price=Price: %s
 axiscube.store.product_info.price.setpack_only=This product can only be purchased in the "%s"
 axiscube.store.product_info.price.setpack_also=This product is also included in the "%s"
-axiscube.store.product_info.price.setpack_also_not1=This product is also included in this packs:
+axiscube.store.product_info.price.setpack_also_not1=This product is also included in this bundle:
 axiscube.store.product_info.colorname=Your name in the lobby and some games will be like this: §r%s
 axiscube.store.product_info.emoji=By purchasing this item you will receive an %s emoji
 
@@ -98,7 +98,7 @@ axiscube.store.action.view=Go to the customization menu
 axiscube.store.category.choice=Select a item category
 axiscube.store.setpack.s=Bundles
 axiscube.store.setpack.d=List of bundles
-axiscube.store.colorname.s=Name color
+axiscube.store.colorname.s=Name colors
 axiscube.store.colorname.d=List of name colors
 axiscube.store.killmsg.s=Kill messages
 axiscube.store.killmsg.d=List of kill messages
@@ -116,8 +116,8 @@ axiscube.store.product.memepack=Memez set
 
 ## Perms
 axiscube.perm.true_leader_comeback=The map manager has arrived. Temporary manager §a%s§r was stripped of his power.
-axiscube.perm.new_temp=There are no map managers on the map. §a%s§r was appointed as a temporary manager. He will manage the map until the main manager appears, or another manager appointed by the leader.
-axiscube.perm.denied.generic=You don't have the permissions to do it.
+axiscube.perm.new_temp=There are no map managers on the map. §a%s§r was appointed as a temporary manager. They will manage the map until the main manager appears, or another manager appointed by the leader.
+axiscube.perm.denied.generic=You don't have the permissions to do this.
 axiscube.perm.denied.setting=You don't have permission to configure the map.
 axiscube.perm.denied.start=You don't have the permissions to start the game.
 axiscube.perm.denied.stop=You don't have the permissions to stop or cancel the game.
@@ -147,7 +147,7 @@ axiscube.kill.t1.bow=Player §a%2§r cut the file §c%1§r (Remote Access)
 axiscube.kill.t2=§a%2§r  §c%1§r
 axiscube.kill.t2.bow=§a%2§r  §c%1§r
 axiscube.kill.t3=Player §c%1§r turned §dpink§r from §a%2§r. It seems to be deadly...
-axiscube.kill.t3.bow=Player §c%1§r turned §dpink§r by from §a%2's§r arrow. It seems to be deadly...
+axiscube.kill.t3.bow=Player §c%1§r turned §dpink§r from §a%2's§r arrow. It seems to be deadly...
 axiscube.kill.t4=Player §c%1§r was bonked by §a%2§r
 axiscube.kill.t4.bow=Player §c%1§r was shot-bonked by §a%2§r
 axiscube.kill.t5=Player §c%1§r lost the duel to §a%2§r
@@ -202,12 +202,12 @@ axiscube.perm.main_op.msg.granted=§eYou have been appointed the main manager of
 axiscube.perm.lz.start=Perm to start the game
 axiscube.perm.lz.stop=Perm to stop the game
 axiscube.perm.lz.setting=Perm to setting map and games
-axiscube.perm.lz.pvp_create=Perms to create sets in PVP games
-axiscube.perm.lz.pvp_activate=Perms to activate sets in PVP games
-axiscube.perm.lz.pvp_edit=Perms to edit sets in PVP games
+axiscube.perm.lz.pvp_create=Perms to create kits in PVP games
+axiscube.perm.lz.pvp_activate=Perms to activate kits in PVP games
+axiscube.perm.lz.pvp_edit=Perms to edit kits in PVP games
 axiscube.perm.lz.pvp_remove=Perms to remove sets in PVP games
 
-axiscube.settings.nametag=Hide player names
+axiscube.settings.nametag=Hide players names
 axiscube.settings.game=Setting the game
 axiscube.settings.pvp.regen=Regeneration per kill
 axiscube.settings.falldamage=Fall damage
@@ -216,7 +216,7 @@ axiscube.settings.falldamage=Fall damage
 
 ## Generic
 axiscube.games.startgame.already=§cThe game has already started!
-axiscube.games.startgame.no_players=§cThere are few players on the map! To run §4%1§c, you need §4%2§c players!
+axiscube.games.startgame.no_players=§cThere are to few players on the map! To run §4%1§c, you need §4%2§c players!
 axiscube.games.startgame=Player §6%1§r started the §a%2§r game
 axiscube.games.cancelgame=Player §6%1§r canceled the start of the game.
 axiscube.games.startgame.startmsg.t3=Ready
@@ -237,7 +237,7 @@ axiscube.games.role.seeker=§cSeeker
 
 axiscube.games.startgame.confirm=Confirmation
 axiscube.games.startgame.confirm.d=Confirm the start of the game?
-axiscube.games.startgame.confirm.d_line2.hns=If the player did not have time to choose a block, he will play for a random one!
+axiscube.games.startgame.confirm.d_line2.hns=If the player did not have time to choose a block, he will play as a random one!
 axiscube.games.startgame.confirm.d_line2.team=If a player does not have time to choose a team, he will become an spectator!
 axiscube.games.startgame.confirm.error=You won't be able to start the game:
 axiscube.games.startgame.confirm.error.team=Not enough teams. To start the game, 2 teams with players are neededed!
@@ -264,7 +264,7 @@ axiscube.teamgame.team.cyan=§3Cyan Team§r
 axiscube.teamgame.team.lime=§aLime Team§r
 axiscube.teamgame.team.black=§rBlack Team§r
 
-axiscube.teamgame.color.red.t1=§cTechy's Team
+axiscube.teamgame.color.red.t1=§cTechy's Team (coolest team)
 axiscube.teamgame.color.green.t1=§qPepe team
 axiscube.teamgame.color.blue.t1=§9TypeScript team
 axiscube.teamgame.color.yellow.t1=§eJavaScript team
@@ -300,19 +300,19 @@ axiscube.scoreboard.money=Money Leaders:
 
 ## Hide And Seek
 axiscube.hns.name=Hide and Seek
-axiscube.hns.d=You will hide behind the blocks. However, one of you will become a seeker, his task is to find all the player blocks.
-axiscube.hns.your_role=You will play for the block: §b%s§r
+axiscube.hns.d=You will hide as a block. However, one of you will become a seeker, his task is to find all the hiders.
+axiscube.hns.your_role=You will play as this block: §b%s§r
 axiscube.hns.hider_att=§c§lBe careful:§r Seekers see the items you are holding!
 axiscube.hns.moved=You have made a move!
 axiscube.hns.placed=Now you are a block!
-axiscube.hns.placed.error=You can't stand here!
+axiscube.hns.placed.error=You can't hide here!
 axiscube.hns.seekers=Seekers
 axiscube.hns.hiders=Hiders
 axiscube.hns.block_list=Blocks to find:
 axiscube.hns.block_sel.d=Select the block you would like to hide as for this game.
 axiscube.hns.block_sel=Block Selection
 axiscube.hns.block_sel.hidden=%s is currently hiding
-axiscube.hns.block_sel.visible=%s is urrently visible
+axiscube.hns.block_sel.visible=%s is currently visible
 axiscube.hns.block_list.d=Here are the blocks. which you will need to find:
 axiscube.hns.block_lsit=List of blocks
 axiscube.hns.seeker_became=Player §c%s§r became a seeker
@@ -326,7 +326,7 @@ axiscube.hns.target=Blocks for which the hiders can play as:
 ## BlockParty
 axiscube.blockp.name=BlockParty
 axiscube.blockp.d=Stand on the correct color.
-axiscube.blockp.target_color=Target color:
+axiscube.blockp.target_color=Correct color:
 axiscube.blockp.bonus.rescue_plate=You can't place a rescue platform at the moment
 
 ## Minefield
@@ -338,21 +338,21 @@ axiscube.mnf.field_engine.status=Placing mines: §a%1§r out of §c%2§r (§6%3%
 axiscube.pvp.name=PVP Games
 axiscube.pvp.d=Fight against players in a team, alone, or in a duel!
 
-axiscube.pvp.kitset.activate=Activate the set
-axiscube.pvp.kitset.edit=Edit set equipment
-axiscube.pvp.kitset.edit.offhand=The item in the second hand
-axiscube.pvp.kitset.del.error=You cannot delete the last set
+axiscube.pvp.kitset.activate=Activate the kit
+axiscube.pvp.kitset.edit=Edit kit equipment
+axiscube.pvp.kitset.edit.offhand=The item is in the second hand
+axiscube.pvp.kitset.del.error=You cannot delete the last kit
 axiscube.pvp.kitset.contain=Set Equipment:
-axiscube.pvp.kitset.management=Managing PVP sets
-axiscube.pvp.kitset.list=List of your sets:
+axiscube.pvp.kitset.management=Managing PVP kits
+axiscube.pvp.kitset.list=List of your kits:
 axiscube.pvp.kitset.templates=Templates
-axiscube.pvp.kitset.templates.list=Templates that you can use when creating a set:
-axiscube.pvp.kitset.this_manage=Managing this set
-axiscube.pvp.kitset.templates.author=Author
-axiscube.pvp.kitset.create_new=Create a new set
+axiscube.pvp.kitset.templates.list=Templates that you can use when creating a kit:
+axiscube.pvp.kitset.this_manage=Managing this kit
+axiscube.pvp.kitset.templates.author=Kit Creator
+axiscube.pvp.kitset.create_new=Create a new kit
 axiscube.pvp.kitset.create_this=Use this template
-axiscube.pvp.kitset.create_new.d=Use a template, or create your own set from scratch
-axiscube.pvp.kitset.create_new.my_own=Create custom
+axiscube.pvp.kitset.create_new.d=Use a template, or create your own kit from scratch
+axiscube.pvp.kitset.create_new.my_own=Create a custom kit
 axiscube.pvp.kitset.export=Export a template
 axiscube.pvp.kitset.export.kitname=Kit Name (Max length: 30)
 axiscube.pvp.kitset.export.kitname.suc=Here is your set in JSON format. Copy it and share it with a friend. He can import this set on his map.
