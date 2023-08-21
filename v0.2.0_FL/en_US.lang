@@ -1,6 +1,6 @@
 ## Items
 item.axiscube:menu=Menu
-item.axiscube:hns_blockchooser=Block Selector
+item.axiscube:hns_blockchooser=Block Selectorhttps://github.com/Axis-Cube/axismg-langs/edit/main/v0.2.0_FL/en_US.lang
 item.axiscube:hns_blockslist=List Of Blocks
 item.axiscube:begin_game=Start The Game
 item.axiscube:cancel_game=Cancel The Game
@@ -23,13 +23,13 @@ axiscube.form.games.gametype=Choose The Type Of Game
 axiscube.form.games.gametype.teamgame=Teams
 axiscube.form.games.gametype.ffa=Free For All
 
-axiscube.form.games.arena=Select The Arena In Which The Fight Would Take Place
+axiscube.form.games.arena=Select The Arena In Which The Fight Would Take Place!
 axiscube.form.games.classic=Classic
 axiscube.form.games.wildwest=Wild West
-axiscube.form.games.icy=Icy
+axiscube.form.games.icy=Frozen
 
 
-axiscube.form.p2.no_players_warn=It seems you're lonely! There are not enough players on the map to play these games. You can only view the description of these games!
+axiscube.form.p2.no_players_warn=It seems you're quite lonely! There are not enough players on the map to play these games. You can only view the description of these games!
 axiscube.form.info=Info
 
 ## Profile
@@ -56,15 +56,15 @@ axiscube.bank.balance=Balance
 ## Store
 axiscube.store=Axis-Store
 
-axiscube.store.transfer=Transfer my purchases
+axiscube.store.transfer=Transfer My Purchases
 axiscube.store.transfer.d=You can transfer progress between different Axis Mini Games maps.
-axiscube.store.transfer.export=Get the transfer code
+axiscube.store.transfer.export=Get The Tranfer Code
 axiscube.store.transfer.export.d=Select the item you would like to transfer
-axiscube.store.transfer.import=Enter the transfer code
+axiscube.store.transfer.import=Enter The Transfer Code
 axiscube.store.transfer.export.code=This is the item code to transfer your data to another map. It will only work with the name "%1". You will not be able to transfer an item to an outdated version of the map if this item cannot be purchased.
 axiscube.store.transfer.import.d=Enter the transfer code:
 axiscube.store.transfer.import.confirm=Do you really want to receive this product?
-axiscube.store.transfer.import.confirm.b=Confirm receiving
+axiscube.store.transfer.import.confirm.b=Confirm Receiving Your Gift
 axiscube.store.transfer.import.confirm.suc=The item has been successfully activated
 axiscube.store.transfer.import.error=§cThe transfer code that you entered did not fit. Make sure that this code was really intended for you.
 axiscube.store.transfer.import.error.version=§cSorry, it seems this item is intended for a newer version of the map.
@@ -85,8 +85,8 @@ axiscube.store.product_info.emoji=By purchasing this item you will receive an %s
 
 axiscube.store.purchased.callback_notify=Successful purchase!
 axiscube.store.purchased.bomj=Not enough AxiGems to buy this item
-axiscube.store.purchased.unv=This item is not available for purchase
-axiscube.store.purchased.title=Purchased items
+axiscube.store.purchased.unv=This item is not available for purchase at the moment
+axiscube.store.purchased.title=Purchased Items
 axiscube.store.purchased.d=At your disposal %s items
 axiscube.store.purchased.no_items=You don't have any purchased items. As a warming item, there is a nerd here
 
