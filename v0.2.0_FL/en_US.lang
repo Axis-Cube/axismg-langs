@@ -7,8 +7,8 @@ item.axiscube:cancel_game=Cancel The Game
 item.axiscube:setting_game=Game Settings
 item.axiscube:blockp_totem=Safety Cushion
 item.axiscube:pvp_settingkit=Kits Settings
-item.axiscube:team_selection=Team Selection 
-item.axiscube:hns_taunt=Taunts Selector 
+item.axiscube:team_selection=Team Selection
+item.axiscube:hns_taunt=Taunts Selector
 
 ## Forms
 axiscube.form.mainmenu=Main Menu
@@ -26,10 +26,10 @@ axiscube.form.games.gametype.ffa=Free For All
 axiscube.form.games.arena=Select The Arena In Which The Fight Would Take Place
 axiscube.form.games.classic=Classic
 axiscube.form.games.wildwest=Wild West
-axiscube.form.games.icy=Icy
+axiscube.form.games.icy=Frozen
 
 
-axiscube.form.p2.no_players_warn=It seems you're lonely! There are not enough players on the map to play these games. You can only view the description of these games!
+axiscube.form.p2.no_players_warn=It seems you're quite! There are not enough players on the map to play these games. You can only view the description of these games!
 axiscube.form.info=Info
 
 ## Profile
@@ -56,21 +56,22 @@ axiscube.bank.balance=Balance
 ## Store
 axiscube.store=Axis-Store
 
-axiscube.store.transfer=Transfer my purchases
+axiscube.store.transfer=Transfer My Purchases
 axiscube.store.transfer.d=You can transfer progress between different Axis Mini Games maps.
-axiscube.store.transfer.export=Get the transfer code
+axiscube.store.transfer.export=Get The Transfer Code
 axiscube.store.transfer.export.d=Select the item you would like to transfer
 axiscube.store.transfer.import=Enter the transfer code
 axiscube.store.transfer.export.code=This is the item code to transfer your data to another map. It will only work with the name "%1". You will not be able to transfer an item to an outdated version of the map if this item cannot be purchased.
 axiscube.store.transfer.import.d=Enter the transfer code:
 axiscube.store.transfer.import.confirm=Do you really want to receive this product?
-axiscube.store.transfer.import.confirm.b=Confirm receiving
+axiscube.store.transfer.import.confirm.b=Receiving Your Item
 axiscube.store.transfer.import.confirm.suc=The item has been successfully activated
 axiscube.store.transfer.import.error=§cThe transfer code that you entered did not fit. Make sure that this code was really intended for you.
 axiscube.store.transfer.import.error.version=§cSorry, it seems this item is intended for a newer version of the map.
 
 axiscube.store.price.set=Purchase in a set
 axiscube.store.price.unvaliable=Unvaliable
+axiscube.store.price.challenge=For the Challenge
 
 axiscube.store.product_info=Item Information
 axiscube.store.product_info.author=Product Creator: %s
@@ -78,15 +79,16 @@ axiscube.store.product_info.setpack=There are %s items in this bundle
 axiscube.store.product_info.setpack.button=>> Bundle Contents: <<
 axiscube.store.product_info.price=Price: %s
 axiscube.store.product_info.price.setpack_only=This product can only be purchased in the "%s"
+axiscube.store.product_info.price.challenge=This product can be obtained for completing the "%1" challenge in the game "%2"
 axiscube.store.product_info.price.setpack_also=This product is also included in the "%s"
-axiscube.store.product_info.price.setpack_also_not1=This product is also included in this bundle:
+axiscube.store.product_info.price.setpack_also_not1=This product is also included in this bundles:
 axiscube.store.product_info.colorname=Your name in the lobby and some games will be like this: §r%s
 axiscube.store.product_info.emoji=By purchasing this item you will receive an %s emoji
 
 axiscube.store.purchased.callback_notify=Successful purchase!
 axiscube.store.purchased.bomj=Not enough AxiGems to buy this item
-axiscube.store.purchased.unv=This item is not available for purchase
-axiscube.store.purchased.title=Purchased items
+axiscube.store.purchased.unv=This item is not available for purchase at the moment
+axiscube.store.purchased.title=Purchased Items
 axiscube.store.purchased.d=At your disposal %s items
 axiscube.store.purchased.no_items=You don't have any purchased items. As a warming item, there is a nerd here
 
@@ -102,6 +104,8 @@ axiscube.store.colorname.s=Name colors
 axiscube.store.colorname.d=List of name colors
 axiscube.store.killmsg.s=Kill messages
 axiscube.store.killmsg.d=List of kill messages
+axiscube.store.elmsg.s=Elimination Messages
+axiscube.store.elmsg.d=List of elimination messages
 axiscube.store.emoji.s=Emojis
 axiscube.store.emoji.d=List of emojis
 axiscube.store.soundmsg.s=Message sounds
@@ -111,6 +115,7 @@ axiscube.store.soundmsg.b=Message sound:
 axiscube.store.product.devpack=Developer bundle
 axiscube.store.product.pinkpack=Pink bundle
 axiscube.store.product.memepack=Memez set
+axiscube.store.product.echopack=The Shard of War Set
 
 ## Messages
 
@@ -243,6 +248,11 @@ axiscube.games.startgame.confirm.error=You won't be able to start the game:
 axiscube.games.startgame.confirm.error.team=Not enough teams. To start the game, 2 teams with players are neededed!
 axiscube.games.cancelgame.confirm.d=Confirm cancellation of the game.
 
+axiscube.games.eliminated.t0=Player §9%s§r is eliminated from the game
+axiscube.games.eliminated.t1=Player §d%s§r turned §dpink§r from the game
+axiscube.games.eliminated.t2=Player §9%s§r was bonked from the game
+axiscube.games.eliminated.t111=I love Viktoria. please ignore this message TEST TEST %1 %2 %0
+
 axiscube.games.player_arrived=Player §a%s§r has passed the level
 axiscube.games.time=Time left: §q%2§r minutes, §a%1§r seconds
 axiscube.games.time.point.s=Less than a §a%s§r minute left! Hurry up!
@@ -322,6 +332,12 @@ axiscube.hns.death=Player §b%1§r was caught by §c%2§r! He played as a §a%3�
 axiscube.hns.main_seeker=Main Seeker
 axiscube.hns.last_hider=Last hider
 axiscube.hns.target=Blocks for which the hiders can play as:
+axiscube.hns.taunt.title=Taunts Selector
+axiscube.hns.taunt.d=Taunts Selector
+axiscube.hns.taunt.cooldown=Taunts Selector is cooling down, wait another §u%s§r seconds.
+axiscube.hns.taunt.name.techy_oink=Oink-oink
+axiscube.hns.taunt.name.boom=BOOM!
+axiscube.hns.taunt.name.flame=Flame
 
 ## BlockParty
 axiscube.blockp.name=BlockParty
